@@ -50,10 +50,36 @@ header h1 {
     margin-bottom: 30px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
    .text  {
         text-align: center;
         font-size: 13px;
         width: 100%;
+    }
+    .container {
+        /* max-width: 900px; */
+    }
+}
+
+@media (max-width: 601.9px){
+   .text  {
+        text-align: center;
+        font-size: 13px;
+        width: 40%;
+    }
+    .container {
+        max-width: 600px;
+    }
+}
+@media (max-width: 350px){
+   .text  {
+        text-align: center;
+        font-size: 13px;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .container {
+        max-width: 340px;
+
     }
 }
