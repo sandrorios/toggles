@@ -11,7 +11,7 @@ for(element of elements){
             this.removeAttribute('style');
         }
     })
-    addIcon();
+    // addIcon();
 }
 
 
