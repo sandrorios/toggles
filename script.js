@@ -11,7 +11,7 @@ for(element of elements){
             this.removeAttribute('style');
         }
     })
-    // addIcon();
+    // addIcon(); Removes the four icon x button in the last .text 
 }
 
 
