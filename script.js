@@ -11,7 +11,7 @@ for(element of elements){
             this.removeAttribute('style');
         }
     })
-    // addIcon(); Removes the four icon x button in the last .text 
+  
 }
 
 
@@ -22,14 +22,6 @@ function addIcon(){
     item.appendChild(button);
   })
 
-   
-//   for(i = 0; i < item.length; i++){
-//    icon += item[i];
-//   }
-   
-  
-  // console.log(item)
-  
   console.log(item)
 }
 
